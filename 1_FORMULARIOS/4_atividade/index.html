@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filmes</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite aqui seu nome" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Escolha um filme</p>
+
+            <div>
+                <input type="radio" id="The Black Phone" name="filme">
+                <label for="the black phone">The Black Phone</label>
+            </div>
+            <div>
+                <input type="radio" id="Culpa Mia" name="filme">
+                <label for="">Culpa Mia</label>
+            </div>
+            <div>
+                <input type="radio" id="Como Eu Era Antes de Voce" name="time">
+                <label for="Velozes e Furiosos">Velozes e Furiosos</label>
+            </div>
+        </div>
+
+        <!-- select -->
+        <div>
+            <label for="hora">Escolha o horário do filme:</label>
+            <select name="hora" id="hora">
+                <option disabled selected>Selecione...</option>
+                <option value="13h30">13h30</option>
+                <option value="14h00">14h00</option>
+                <option value="16h00">16h00</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
